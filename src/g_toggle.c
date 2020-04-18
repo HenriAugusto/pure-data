@@ -271,8 +271,8 @@ static void toggle_properties(t_gobj *z, t_glist *owner)
             ----------dimensions(pix):----------- %d %d size: 0 0 empty \
             -----------non-zero-value:----------- %g value: 0.0 empty %g \
             -1 lin log %d %d empty %d \
-            %s %s \
-            %s %d %d \
+            {%s} {%s} \
+            {%s} %d %d \
             %d %d \
             #%06x #%06x #%06x\n",
             x->x_gui.x_w/IEMGUI_ZOOM(x), IEM_GUI_MINSIZE,

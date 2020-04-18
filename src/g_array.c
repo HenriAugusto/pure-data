@@ -370,7 +370,7 @@ void garray_properties(t_garray *x)
         /* create dialog window.  LATER fix this to escape '$'
         properly; right now we just detect a leading '$' and escape
         it.  There should be a systematic way of doing this. */
-    sprintf(cmdbuf, "pdtk_array_dialog %%s %s %d %d 0\n",
+    sprintf(cmdbuf, "pdtk_array_dialog %%s {%s} %d %d 0\n",
             iemgui_dollar2raute(x->x_name)->s_name, a->a_n, x->x_saveit +
             2 * filestyle);
     gfxstub_new(&x->x_gobj.g_pd, x, cmdbuf);

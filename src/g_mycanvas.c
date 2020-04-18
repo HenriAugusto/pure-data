@@ -163,8 +163,8 @@ static void my_canvas_properties(t_gobj *z, t_glist *owner)
             ------selectable_dimensions(pix):------ %d %d size: 0.0 0.0 empty \
             ------visible_rectangle(pix)(pix):------ %d width: %d height: %d \
             %d empty empty %d %d empty %d \
-            %s %s \
-            %s %d %d \
+            {%s} {%s} \
+            {%s} %d %d \
             %d %d \
             #%06x none #%06x\n",
             x->x_gui.x_w/IEMGUI_ZOOM(x), 1,
